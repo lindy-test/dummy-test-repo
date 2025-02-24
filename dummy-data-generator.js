@@ -6,6 +6,7 @@ function generateDummyUsers(total) {
             id: i,
             name: `User_${i}`,
             email: `user${i}@example.com`,
+            phone: `+100000000${i}`,
             isActive: i % 2 === 0,
             profile: {
                 age: Math.floor(Math.random() * 60) + 18,
