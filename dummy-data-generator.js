@@ -5,7 +5,7 @@ function generateDummyUsers(total) {
         users.push({
             id: i,
             name: `User_${i}`,
-            email: `user${i}@example.com`,
+            email: `user.${i}@dummyland.com`,
             isActive: i % 2 === 0,
             profile: {
                 age: Math.floor(Math.random() * 60) + 18,
